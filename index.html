@@ -27,7 +27,57 @@
     background: #ffffff;
     text-decoration: none;
     color: #0a7bc2;
-}    
+}
+.main {
+    border: 1px solid black;
+    width: 100%;
+}
+.main h1:first-letter {
+    background-color: #666;
+	color: #FFF;
+	font-size: 2em;
+	font-style:normal;
+	display: inline-block;
+	padding: 0 5px;
+	border-radius: 3px;
+	margin-right: 2px;
+	font-family: serif;
+}
+.main h1 {
+    text-decoration: underline;   
+}
+.container {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+}
+.spark {
+    background: url('http://fc05.deviantart.net/fs71/f/2013/340/9/4/brillo_png_by_joss2003-d6x0j3r.png') no-repeat center;
+    transition: all 0.2s ease;
+    background-size: 30px;
+    height: 30px;
+    width: 100px;
+    margin-right: 150px;
+    right: -20px;
+    position: relative;
+    top: 10px;
+}
+.diam:hover .spark {
+    -webkit-transform: rotate(360deg);
+    background-size: 40px;
+    height: 40px;
+    top: 5px;
+}
+.diam {
+    background: url('http://openclipart.org/image/800px/svg_to_png/185314/diamond.png') no-repeat center;
+    background-size: 100px;
+    height: 100px;
+}
 </style>
 
 </head>
@@ -45,7 +95,17 @@ window.location.href = 'landing.html';
 </FORM>
 </CENTER>
 </div>    
- <div align='center'>
+       <div class="main" align="center">
+      <div class="container" align="center">
+<div align="center" class="diam">
+<div align="right" class="spark"></div></div></div>
+
+<div class="container" align="center">
+<div align="center" class="diam">
+<div align="right" class="spark"></div></div></div>
+                    <h1>Double Diamond Games</h1>
+        </div>
+    <div align='center'>
     <!-- Begin BidVertiser code -->
 <script type="text/javascript">
 sa_client = "0665951dd5ff523c3d773bda007aba98";
